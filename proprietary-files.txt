@@ -51,6 +51,8 @@ vendor/etc/camera/OnePlus_7tPro_Golden_2.bin
 vendor/etc/camera/vidhance_calibration
 vendor/etc/init/calibrationOutput_uw.rc
 vendor/etc/init/calibrationOutput_wt.rc
+vendor/lib64/libarcsoft_dualcam_refocus_preview.so
+vendor/lib64/libarcsoft_portrait_distortion_correction.so
 vendor/lib64/camera/components/com.oneplus.node.bokeh.so
 vendor/lib64/camera/components/com.oneplus.node.distortion.so
 vendor/lib64/camera/components/com.oneplus.node.eis.so
@@ -134,6 +136,17 @@ vendor/lib64/fp_hal_extension.so
 vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
+
+# IPA firmware
+vendor/firmware/ipa_fws.mdt
+
+# NFC
+vendor/etc/libnfc-nxp_RF.conf
+vendor/lib/libpn553_fw.so
+
+# RIL
+vendor/bin/hw/qcrild
+vendor/lib64/libril-qc-hal-qmi.so
 
 # Sensors
 vendor/etc/sensors/config/ak991x_0.json

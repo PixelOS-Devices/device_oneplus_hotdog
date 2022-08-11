@@ -25,13 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
 
-# Device init scripts
-PRODUCT_PACKAGES += \
-    fstab.qcom
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
-
 # OPFeature
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
